@@ -1,0 +1,17 @@
+
+p,li,h4{
+    display: none;
+}
+.content:hover p{
+    display: inline;
+
+}
+.Types:hover li{
+    display:list-item;
+}
+.Descendant:hover li{
+    display: list-item;
+}
+#des:hover~p,b{
+    display: block;
+}

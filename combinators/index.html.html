@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <link rel="stylesheet" href="combinators.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Combinators and Selectors</h1>
+        <p>In CSS, combinator selectors define relationships between two or more elements. They are used to select elements based on their position or relationship in the HTML structure.</p>
+    </div>
+    <div class="Types"><h2>Types of Combinator Selectors:</h2>
+        <ol>
+            <li>Descendant Selectors</li>
+            <li>Child Selectors</li>
+            <li>Adjacent Sibling Selectors</li>
+            <li>General Sibling Selectors</li>
+        </ol>
+    </div>
+    <div class="Descendant">
+        <h3 id="des">1.Descendant Selectors</h3>
+        <ul>
+            <li>It selects the all the child, grand child elements</li>
+            <li>It is represented with space(" ")</li>
+        </ul>
+        <p>Example:</p>
+        <p>
+            div p {
+                color: blue;
+              }
+        </p>
+    </div>
+    <div class="Descendant">
+        <h3 id="des">2.Child Selectors</h3>
+        <ul>
+            <li>It selects only child elements from the main selected parent</li>
+            <li>It is represented with space(">")</li>
+        </ul>
+        <p>Example:</p>
+        <p>
+            div > p {
+                color: red;
+              }
+        </p>
+    </div>
+    <div class="Descendant">
+        <h3 id="des">3.Adjacent Sibling Selectors</h3>
+        <ul>
+            <li>It selects the next immediate elements from the selected</li>
+            <li>It is represented with space("+")</li>
+        </ul>
+        <p>Example:</p>
+        <p>
+            div+p {
+                color: green;
+              }
+        </p>
+    </div>
+    <div class="Descendant">
+        <h3 id="des">4.General Sibling Selectors</h3>
+        <ul>
+            <li>It selects all elements that are siblings after a specified element.</li>
+            <li>It is represented with space("~")</li>
+        </ul>
+        <p>Example:</p>
+        <p>
+            div~p {
+                color: yellow;
+              }
+        </p>
+    </div>
+</body>
+</html>
