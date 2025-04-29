@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-card {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+
+  }
+  .image{
+    text-align: right;
+  }
+  
+  .wrap-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:20px;
+    right: 30px;
+  }
+  
+  h2 {
+    margin: 10px 0 5px;
+  }
+  
+  p a {
+    color: #ff7a00;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .referral-link {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 13px;
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #ff7a00;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .terms {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .terms a {
+    color: #1e90ff;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="signup-container">
+      <div class="form-card">
+          <h2>Sign up</h2>
+          <p><a href="">login to your account</a></p>
+          <div class="image">
+            <img src="wrap.png" alt="Wrap Icon" class="wrap-icon" />
+          </div>
+          
+          
+          <form>
+              <input type="text" placeholder="Phone number" required />
+              <input type="text" placeholder="Name" required />
+              <input type="email" placeholder="Email" required />
+              <input type="password" placeholder="Password" required />
+              <a href="#" class="referral-link">Have a referral code?</a>
+              <button type="submit">Continue</button>
+            </form>
+            
+            <p class="terms">
+                By creating an account, I accept the <a href="#">Terms & Conditions</a>
+            </p>
+        </div>
+</div>
+</body>
+</html>
